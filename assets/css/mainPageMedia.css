@@ -1,0 +1,399 @@
+@media (max-width: 1359px) {
+
+    body {
+        background: #FFFFFF;
+    }
+
+    .Header__topInfo_workTime {
+        display: none !important;
+    }
+
+    .Header__topInfo_PhoneNumber {
+        display: block !important;
+    }
+
+    .Header__list_nav {
+        display: none;
+    }
+
+    .Header__listElement_PhoneNumber {
+        display: none;
+    }
+
+    .Header__list_rightPart div:nth-of-type(2) {
+        display: none;
+    }
+    
+
+    .Header__list_rightPartElement_dropDown_icon {
+        display: flex;
+    }
+
+    .mainPage__contentList {
+       justify-content: space-around;
+       
+    }
+
+    .mainPage__contentWrap_1,
+        .mainPage__contentWrap_2,
+            .mainPage__contentWrap_3 {
+                margin-bottom: 10px;
+    }
+
+    .mainPage__catalog>h1 {
+        padding-left: 20px;
+    }
+
+    .mainPage__catalog {
+        background: #FFFFFF;
+        padding: inherit;
+    }
+
+    .mainPage__bestsellers_h1 {
+        margin-left: 20px;
+    }
+
+    .mainPage__bestsellers_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mainPage__bestsellers_element_2,
+        .mainPage__bestsellers_element_3,
+            .mainPage__bestsellers_element_4 {
+                display: none;
+            }
+    
+    .mainPage__bestsellers_btn {
+        display: none;
+    }   
+
+    .main__Page_OurServices > div > h1 {
+        padding-left: 20px;
+    }
+    
+    .main__Page_OurServices_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__Page_OurServices_Element_1,
+        .main__Page_OurServices_Element_2,
+            .main__Page_OurServices_Element_3 {
+                margin-bottom: 20px;
+            }
+    
+    .mainPage__bestsellers_btn_noActive {
+        display: block !important;
+    }
+
+    .main__Page_OurServices_wrap {
+        align-items: center;
+    }
+
+    .mainPage__OurClientsrecommend_h1 {
+        padding-left: 20px;
+    }
+    
+    .mainPage__OurClientsrecommend_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .mainPage__OurClientsrecommend_element_2,
+        .mainPage__OurClientsrecommend_element_3,
+            .mainPage__OurClientsrecommend_element_4 {
+                display: none;
+            }
+
+    .mainPage__blogTop {
+        padding: 0px 20px 0px 20px;
+    }
+    
+    .mainPage__blod_wrap {
+        padding: 0px 20px 0px 20px;
+        justify-content: center;
+    }
+    
+    .mainPage__blod_element_2,
+        .mainPage__blod_element_3 {
+            display: none;
+        }
+
+    .maimPage__footer_form {
+        display: none;
+    }
+
+    .mainPage__footer_background {
+        display: flex;
+        padding-top: 100px;
+    }
+    
+    .mainPage__footer_mainPart_wrap {
+        flex-direction: column;
+        margin-left: 80px;
+    }
+
+    .mainPage__footer_mainPartElement_title {
+        margin-bottom: 8px;
+    }
+
+    .mainPage__footer_mainPart_wrap>a {
+        display: block;
+    }  
+
+    .mainPage__footer_mainPartElement_text {
+        display: none;
+    }
+
+    footer span {
+        display: none;
+    }
+
+    .mainPage__footer_mainPart {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .mainPage__footer_mainPartElement_contacts_location,
+        .mainPage__footer_mainPartElement_contacts_tel {
+            display: none;
+        }
+
+    .mainPage__footer_mainPartElement_contacts_location_noActive,
+        .mainPage__footer_mainPartElement_contacts_tel_noActive {
+            display: block;
+        }
+
+    .mainPage__footer_mainPart_wrap >
+        .mainPage__footer_mainPartElement:nth-of-type(5) >
+            .mainPage__footer_mainPartElement_title {
+                display: none;
+        }
+
+    .maimPage__footer_form_noActive div,
+        .maimPage__footer_formInputs_tel_noActive,
+            .maimPage__footer_formInputs_submit_noActive {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }   
+    
+    
+}
+
+/*----------fix----------*/
+
+@media(max-width: 1319px) {
+    .mainPage__contentList {
+        justify-content:center
+    }
+
+    .mainPage__contentWrap_2,
+        .mainPage__contentWrap_4,
+            .mainPage__contentWrap_6 {
+                margin-left: 10px !important;
+    }
+}
+
+@media(max-width: 920px) {
+    .mainPage__firstBlock_form {
+        padding: 0px 5%;
+    }
+
+    .mainPage__firstBlock_form_sending_form {
+        padding: 16px 30px;
+        background-position: 30px 25px;
+        
+    }
+
+    .mainPage__firstBlock_form_input {
+        margin-left: 20px;
+        padding-bottom: 11px;
+        margin-top: -10px;
+    }
+
+    .mainPage__firstBlock_form_sending_form div > span {
+        margin-left: 0px;
+    }
+
+    .mainPage__contentWrap_2,
+            .mainPage__contentWrap_4,
+                .mainPage__contentWrap_6 {
+                    margin-left: 0px !important;
+        }
+
+    .mainPage__contentWrap_4,
+        .mainPage__contentWrap_5 {
+            padding-bottom: 20px;
+        }
+
+    .mainPage__contentWrap_1,
+        .mainPage__contentWrap_2,
+            .mainPage__contentWrap_3,
+                .mainPage__contentWrap_4,
+                    .mainPage__contentWrap_5,
+                        .mainPage__contentWrap_6 {
+                            width: 400px;
+    }  
+
+    .mainPage__btnList {
+        width: 360px;
+    }
+
+    .mainPage__contentElement {
+        width: 360px;
+    }
+
+    .mainPage__blog_elementText {
+        height: 65px;
+    }
+
+    .mainPage__blod_element_1 img {
+        width: 100%;
+    }
+
+    .mainPage__blod_wrap {
+        justify-content: center;
+    }
+
+    .mainPage__blod_element_1,
+        .mainPage__blod_element_2,
+            .mainPage__blod_element_3 {
+                width: 347px;
+            }
+}
+
+/*----------fonts Change----------*/
+
+@media(max-width: 920px) {
+
+    .Header__topInfo > div {
+        font-size: 14px;
+    }
+
+    .Header__list_rightPart_btnText {
+        font-size: 18px;
+    }
+
+    .Header__list_rightPart_btnSmallText {
+        font-size: 12px;
+    }
+
+    .mainPage__firstBlock_blockWithCar > div:nth-of-type(1) {
+        font-size: 35px;
+    }
+
+    .mainPage__firstBlock_blockWithCar > div:nth-of-type(2) {
+        font-size: 21px;
+        color: #FFFFFF;
+    }
+
+    .aboutUs__firstBlock_blockWithImg > 
+        div:nth-of-type(2) span {
+            border: 1px solid #FFFFFF;
+            width: 10px;
+        }
+
+    .mainPage__firstBlock_blockWithCar > div:nth-of-type(3) {
+        font-size: 25px;
+    }
+
+    .mainPage__firstBlock_form_input {
+        font-size: 14px;
+    }
+
+    .mainPage__firstBlock_form_submit {
+        font-size: 11.3333px;
+        padding: 5px 25px;
+    }
+
+    .mainPage__catalog>h1 {
+        font-size: 22px;
+        padding: 40px 10px 20px 10px;
+    }
+
+    .mainPage__btnList>a {
+        font-size: 18px;
+    }
+
+    .mainPage__bestsellers_h1 {
+        font-size: 22px;
+        padding: 0px 10px;
+        margin: -50px 0px 20px 0px;
+    }
+
+    .mainPage__bestsellers_element_top {
+        font-size: 20px;
+    }
+
+    .mainPage__bestsellers_element_content_title {
+        font-size: 20px;
+    }
+
+    .main__Page_OurServices > div > h1 {
+        font-size: 22px;
+        padding: 0px 10px 20px 10px;
+        margin-top: -30px;
+    }
+
+    .main__Page_OurServices_Element_1,
+        .main__Page_OurServices_Element_2,
+            .main__Page_OurServices_Element_3 {
+        width: 374px;
+    }
+
+    .main__Page_OurServices_Element_text {
+        font-size: 20px;
+    }
+
+    .mainPage__OurClientsrecommend_h1 {
+        font-size: 22px;
+        padding: 0px 10px;
+        margin: -50px 0px 20px 0px;
+    }
+
+    .mainPage__blogTop > h1 {
+        font-size: 22px;
+        padding: 0px 10px;
+    }
+
+    .mainPage__blogTop {
+        padding: 0px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .mainPage__blogTop > a {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+
+    .mainPage__blog_btn {
+        font-size: 16px;
+    }
+
+    .mainPage__footer_mainPartElement_title {
+        font-size: 18px;
+    }
+
+    .mainPage__footer_mainPartElement_contacts_location_noActive > a,
+    .mainPage__footer_mainPartElement_contacts_tel_noActive > a {
+        font-size: 14px;
+    }    
+}
+
+@media(max-width: 550px) {
+    .mainPage__firstBlock_blockWithCar > div:nth-of-type(1) {
+        font-size: 20px;
+    }
+
+    .mainPage__firstBlock_blockWithCar > div:nth-of-type(2) {
+        font-size: 12px;
+    }
+
+    .mainPage__firstBlock_blockWithCar > div:nth-of-type(3) {
+        font-size: 20px;
+    }
+}

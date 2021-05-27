@@ -1,0 +1,285 @@
+@media (max-width: 1359px) {
+
+    body {
+        background: #FFFFFF;
+    }
+
+    .Header__topInfo_workTime {
+        display: none !important;
+    }
+
+    .Header__topInfo_PhoneNumber {
+        display: block !important;
+    }
+
+    .Header__list_nav {
+        display: none;
+    }
+
+    .Header__listElement_PhoneNumber {
+        display: none;
+    }
+
+    .Header__list_rightPart div:nth-of-type(2) {
+        display: none;
+    }
+    
+
+    .Header__list_rightPartElement_dropDown_icon {
+        display: flex;
+    }
+
+    .mainPage__contentList {
+       justify-content: space-around;
+       
+    }
+
+    .mainPage__contentWrap_1,
+        .mainPage__contentWrap_2,
+            .mainPage__contentWrap_3 {
+                margin-bottom: 10px;
+    }
+
+    .userPage__firstBlock_blockWithImg > 
+    div:nth-of-type(1) {
+        font-size: 26px;
+        width: 40%;
+    }
+
+.userPage__firstBlock_blockWithImg > 
+    div:nth-of-type(2) {
+        font-size: 16px;
+    }
+
+.userPage__firstBlock_blockWithImg > 
+    div:nth-of-type(3) {
+        font-size: 25px;
+    }
+
+    .userPage__delivery_wrap {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .userPage__payment_wrap {
+        padding: 0px 20px 0px 20px;
+        display: block;
+    }
+
+    .userPage__payment_wrap > 
+        .userPage__payment_element:nth-of-type(2) {
+            padding: 0px;
+        }
+
+    .userPage__payment_wrap >
+        .userPage__payment_element:nth-of-type(3) {
+            display: block;
+        }
+
+    .userPage__payment_element {
+        margin-top: 20px;
+    }
+
+    .userPage__delivery_h1,
+        .userPage__payment_h1 {
+            margin-left: 20px;
+        }
+
+    .userPage__guarantee_h1 {
+        display: none;
+    }
+
+    .userPage__guarantee_wrap {
+        display: none;
+    }
+
+    .maimPage__footer_form {
+        display: none;
+    }
+
+    .mainPage__footer_background {
+        display: flex;
+        padding-top: 100px;
+    }
+    
+    .mainPage__footer_mainPart_wrap {
+        flex-direction: column;
+        margin-left: 80px;
+    }
+
+    .mainPage__footer_mainPartElement_title {
+        margin-bottom: 8px;
+    }
+
+    .mainPage__footer_mainPartElement_text {
+        display: none;
+    }
+
+    footer span {
+        display: none;
+    }
+
+    .mainPage__footer_mainPart {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .mainPage__footer_mainPartElement_contacts_location,
+        .mainPage__footer_mainPartElement_contacts_tel {
+            display: none;
+        }
+
+    .mainPage__footer_mainPartElement_contacts_location_noActive,
+        .mainPage__footer_mainPartElement_contacts_tel_noActive {
+            display: block;
+        }
+
+    .mainPage__footer_mainPart_wrap >
+        .mainPage__footer_mainPartElement:nth-of-type(5) >
+            .mainPage__footer_mainPartElement_title {
+                display: none;
+        }
+
+    .maimPage__footer_form_noActive div,
+        .maimPage__footer_formInputs_tel_noActive,
+            .maimPage__footer_formInputs_submit_noActive {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }   
+    
+    .mainPage__footer_mainPart_wrap>a {
+        display: block;
+    }
+}
+
+@media(max-width: 920px) {
+
+   .userPage__firstBlock_blockWithImg > 
+        div:nth-of-type(1) {
+            padding-top: 10%;
+            padding-left: 40%;
+            width: 50%;
+            font-size: 26px;
+        }
+
+    .userPage__firstBlock_blockWithImg > 
+        div:nth-of-type(2) {
+            padding-top: 5px;
+            padding-left: 40%;
+            font-size: 16px;
+            color: #FFFFFF;
+        }
+
+    .aboutUs__firstBlock_blockWithImg > 
+        div:nth-of-type(2) span {
+            border: 1px solid #FFFFFF;
+            width: 10px;
+        }
+
+    .userPage__firstBlock_blockWithImg > 
+        div:nth-of-type(3) {
+            padding-top: 5px;
+            padding-left: 40%;
+            font-size: 25px;
+        }
+
+        .userPage__delivery_wrap {
+            flex-direction: column;
+        }
+
+        .userPage__delivery_element {
+            width: 100%;
+        }
+    
+
+    .userPage__delivery_element:nth-of-type(2) {
+        margin-top: 30px;
+    }
+
+    .userPage__payment_h1 {
+        margin-top: 30px;
+    }
+}
+
+/*-----fix------*/
+
+@media(max-width: 550px) {
+    .userPage__firstBlock_blockWithImg > 
+        div:nth-of-type(1) {
+            padding-top: 10%;
+            padding-left: 30%;
+            width: 65%;
+        }
+
+    .userPage__firstBlock_blockWithImg > 
+        div:nth-of-type(2) {
+            padding-top: 5px;
+            padding-left: 30%;
+        }
+
+    .userPage__firstBlock_blockWithImg > 
+        div:nth-of-type(3) {
+            padding-top: 5px;
+            padding-left: 30%;
+            width: 50%;
+        }
+}
+
+/*----------fonts Change----------*/
+
+  .Header__topInfo > div {
+        font-size: 14px;
+    }
+
+    .Header__list_rightPart_btnText {
+        font-size: 18px;
+    }
+
+    .Header__list_rightPart_btnSmallText {
+        font-size: 12px;
+    }
+
+@media(max-width: 920px) {
+    .userPage__firstBlock_blockWithImg > 
+        div:nth-of-type(1) {
+            font-size: 20px;
+        }
+
+    .userPage__firstBlock_blockWithImg > 
+        div:nth-of-type(2) {
+            font-size: 12px;
+        }
+
+    .userPage__firstBlock_blockWithImg > 
+        div:nth-of-type(3) {
+            font-size: 20px;
+        }
+
+    .mainPage__footer_mainPartElement_title {
+        font-size: 18px;
+        }
+
+    .mainPage__footer_mainPartElement_contacts_location_noActive > a,
+        .mainPage__footer_mainPartElement_contacts_tel_noActive > a {
+            font-size: 14px;
+        }
+        
+    .userPage__delivery_h1,
+        .userPage__payment_h1 {
+            font-size: 22px;
+        }
+
+    .userPage__delivery_h2,
+        .userPage__payment_h2 {
+            font-size: 18px;
+        }
+
+    .userPage__delivery_element > div,
+        .userPage__payment_element > div {
+            font-size: 16px;
+        }
+
+    .boldText {
+        font-size: 16px;
+    }
+}    
